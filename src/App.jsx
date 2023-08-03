@@ -1,9 +1,14 @@
 import React from 'react'
 import './App.css'
+import NavBar from './assets/componentes/NavBar/NavBar'
+import PromocionPrincipal from './assets/componentes/PromocionPrincipal/PromocionPrincipal'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <NavBar />
+      <PromocionPrincipal />
+    </div>
   )
 }
 

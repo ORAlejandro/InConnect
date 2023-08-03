@@ -1,0 +1,30 @@
+.contenedor-principal {
+  background-color: #E5E7E9;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.contenedor-nav {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.titulo {
+  font-size: 2.3rem;
+}
+
+.contenedor-li {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.listado {
+  text-transform: uppercase;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
