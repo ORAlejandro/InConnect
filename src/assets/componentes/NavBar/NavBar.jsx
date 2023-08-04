@@ -10,7 +10,7 @@ const NavBar = () => {
           <li className='listado'>Streaming</li>
           <li className='listado'>Combos</li>
           <li className='listado'>Ayuda</li>
-          <li className='listado'>Contactanos</li>
+          <li className='listado'>Suscribete</li>
         </ul>
       </nav>
     </header>

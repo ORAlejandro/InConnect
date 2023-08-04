@@ -1,0 +1,56 @@
+.contenedor-promocion {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  border: 1px #bdb7b7 solid;
+  background-color: white;
+  margin: 5rem 8rem;
+  border-radius: 25px;
+}
+
+.img-promocion {
+  padding: 3rem;
+}
+
+.contenedor-texto-promocion {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+}
+
+.titulo-promocion {
+  font-size: 2.3rem;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+}
+
+.descripcion {
+  max-width: 70%;
+}
+
+.btn-sub {
+  border: #00a898;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  width: 275px;
+  height: 80px;
+  background-color: #77e9e4;
+  font-weight: 600;
+  color: #004e5a;
+  box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.56);
+  -webkit-box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.56);
+  -moz-box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.56);
+}
+
+.btn-sub:hover {
+  background-color: #54e6df;
+}
+
+.btn-sub:active {
+  background-color: #47ece4;
+}
