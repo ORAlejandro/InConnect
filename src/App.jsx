@@ -15,7 +15,15 @@ const App = () => {
         <NavBar />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/internet' element={<Internet />} />
+          <Route path='/internet' element={<Internet
+            velocidad1={600}
+            velocidad2={800}
+            velocidad3={1000}
+            precio1={2500}
+            precio2={3100}
+            precio3={3700}
+            tarjetaPromocion='Tarjeta VISA'
+            costoInstalacion='Gratis' />} />
           <Route path='/streaming' element={<Streaming />} />
           <Route path='/combos' element={<Combos />} />
           <Route path='/ayuda' element={<Ayuda />} />
